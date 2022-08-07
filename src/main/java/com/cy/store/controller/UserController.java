@@ -25,7 +25,7 @@ public class UserController extends BaseController{
         JsonResult<Void> result = new JsonResult<>();
         userService.reg(user);
         result.setState(OK);
-        result.setMessage("注册成功");
+        result.setMessage("注册成功====");
         return result;
     }
 
